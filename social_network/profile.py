@@ -2,7 +2,7 @@ from datetime import date
 
 
 class ProfileConnections:
-    def __init__(self) -> None:
+    def __init__(self, friends) -> None:
         today_date = date.today()
 
         self._friends = []
